@@ -1,0 +1,216 @@
+header {
+    display: flex;
+    gap: 2px;
+    height: 100px;
+    background-color: khaki;
+}
+
+.underbox {
+    display: flex;
+    gap: 2px;
+    margin-top: 38px;
+    height: 45px;
+    flex-wrap: wrap-reverse;
+}
+
+.fakebtn {
+    width: 89px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: rgb(120, 120, 197);
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    width: 625px;
+    gap: 2px;
+    justify-content: center;
+}
+
+.logo {
+    width: 800px;
+}
+
+img {
+    width: 290px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-image: url(./mvehfqz6w2ges2dj.jpg);
+}
+
+.linear {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: linear;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes linear {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+
+    100% {
+        left: 400px;
+        right: 0px;
+    }
+}
+
+.ese {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ese;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ese {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+
+    100% {
+        left: 400px;
+        right: 0px;
+    }
+}
+
+.ese-in {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: ese-in;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ese-in {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+
+    100% {
+        left: 400px;
+        right: 0px;
+    }
+}
+
+.ese-out {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ese-out;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ese-out {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+
+    100% {
+        left: 400px;
+        right: 0px;
+    }
+}
+
+.ese-in-out {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: ese-in-out;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ese-in-out {
+    0% {
+        left: 0px;
+        right: 0px;
+    }
+
+    100% {
+        left: 400px;
+        right: 0px;
+    }
+}
+
+@media only screen and (Max-width:340px) {
+    header {
+        height: 70px;
+    }
+
+    .buttons {
+        width: 200px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .fakebtn {
+        width: 48px;
+        height: 15px;
+        font-size: 6px;
+    }
+
+    .underbox {
+        margin-top: 10px;
+        width: 160px
+    }
+
+    .linear {
+        width: 100px;
+        height: 50px;
+    }
+
+    .ese {
+        width: 100px;
+        height: 50px;
+    }
+
+    .ese-in {
+        width: 100px;
+        height: 50px;
+    }
+
+    .ese-out {
+        width: 100px;
+        height: 50px;
+    }
+
+    .ese-in-out {
+        width: 100px;
+        height: 50px;
+    }
+
+    img {
+        width: 100px;
+        height: 70px;
+    }
+}
